@@ -1,8 +1,8 @@
 import React, {useEffect} from "react";
 import Head from 'next/head'
-import yxwwwdStyle from '../styles/yxwwwd.module.scss'
+import WavyloginStyle from '../styles/wavyloginstyle.module.scss'
 
-const YxwwwdRoute = () => {
+const WavyloginRoute = () => {
 
     useEffect(() => {
         document.body.style = 'background-color: rgba(244, 91, 105, 1);'
@@ -13,7 +13,7 @@ const YxwwwdRoute = () => {
             <Head>
                 <title>Learn about CO2</title>
             </Head>
-            <form className={yxwwwdStyle.login}>
+            <form className={WavyloginStyle.login}>
                 <input type="text" placeholder="Username"/>
                 <input type="password" placeholder="Password"/>
                 <button>Login</button>
@@ -22,4 +22,4 @@ const YxwwwdRoute = () => {
     );
 };
 
-export default YxwwwdRoute;
+export default WavyloginRoute;
